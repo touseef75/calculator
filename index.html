@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <form class="calculatorform" name="calculatorform">
+            <div class="screen">
+                <input  id="inpu" type="text" name="screen"/>
+            </div>
+            <div class="butn">
+                <input type="button" name="clear" value="clear" onclick="click" />
+                <input type="button" name="del" value="delete" onclick="click"/>
+            </div>
+            <div class="butn">
+                <input type="button" name="num1" value="1" onclick="click(1)"/>
+                <input type="button" name="num2" value="2" onclick="click(2)"/>
+                <input type="button" name="num3" value="3" onclick="click(3)"/>
+                <input type="button" name="plus" value="+" onclick="click('+')"/>
+            </div>
+            <div class="butn">
+                <input type="button" name="num4" value="4" onclick="click(4)"/>
+                <input type="button" name="num5" value="5" onclick="click(5)"/>
+                <input type="button" name="num6" value="6" onclick="click(6)"/>
+                <input type="button" name="sun" value="-" onclick="click('-')"/>
+            </div>
+            <div class="butn">
+                <input type="button" name="num7" value="7" onclick="click(7)"/>
+                <input type="button" name="num8" value="8" onclick="click(8)"/>
+                <input type="button" name="num9" value="9" onclick="click(9)"/>
+                <input type="button" name="mul" value="*" onclick="click('*')"/>
+            </div>
+            <div class="butn">
+                <input type="button" name="num0" value="0" onclick="click(0)"/>
+                <input type="button" name="div" value="/" onclick="click('/')"/>
+                <input type="button" name="equal" value="=" onclick="click('=')"/>
+            </div>
+        </form>
+    </div>
+    <script src="./assets/main.js"></script>
+</body>
+</html>
