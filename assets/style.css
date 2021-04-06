@@ -15,16 +15,46 @@
 .container .calculatorform{
     position: relative;
     height: 450px;
-    width: 400px;
+    width: 300px;
     border: 1px solid #000;
+    border: none;
+    outline: none;
 }
 .container .calculatorform div{
     height: calc(450px/6);
     width: 100%;
     display: flex;
     flex: 1;
+    border:black solid 2px;
 }
 .container .calculatorform div input{
     height: 100%;
     width: 100%;
+}
+#button{
+    /* background-color: #000;
+    color: aliceblue; */
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+}
+#hire{
+    font-size: 2rem;
+    text-align: end;
+}
+
+.color{
+    background-color: navy;
+    color: aliceblue;
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
+    font-style: italic;
+}
+.desig{
+    background-color: #000;
+    color: aliceblue;
+}
+body{
+    background-color: rgb(54, 54, 190);
 }

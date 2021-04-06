@@ -8,37 +8,38 @@
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
+
     <div class="container">
         <form class="calculatorform" name="calculatorform">
             <div class="screen">
-                <input  id="inpu" type="text" name="screen"/>
+                <input  id="hire" type="text" name="screen" />
             </div>
             <div class="butn">
-                <input type="button" name="clear" value="clear" onclick="click" />
-                <input type="button" name="del" value="delete" onclick="click"/>
+                <input type="button" name="clear"  class="color" value="clear" onclick="result('c')" />
+                <input type="button" name="del"  class="color" value="delete" onclick="result('d')"/>
             </div>
             <div class="butn">
-                <input type="button" name="num1" value="1" onclick="click(1)"/>
-                <input type="button" name="num2" value="2" onclick="click(2)"/>
-                <input type="button" name="num3" value="3" onclick="click(3)"/>
-                <input type="button" name="plus" value="+" onclick="click('+')"/>
+                <input type="button" name="num4" value="1" class="desig" id="button" onclick="result(1)" />
+                <input type="button" name="num5" value="2" class="desig" id="button" onclick="result(2)" />
+                <input type="button" name="num6" value="3"  class="desig" id="button" onclick="result(3)" />
+                <input type="button" name="sun" value="+" class="color" id="button" onclick="result('+')" />
             </div>
             <div class="butn">
-                <input type="button" name="num4" value="4" onclick="click(4)"/>
-                <input type="button" name="num5" value="5" onclick="click(5)"/>
-                <input type="button" name="num6" value="6" onclick="click(6)"/>
-                <input type="button" name="sun" value="-" onclick="click('-')"/>
+                <input type="button" name="num4" value="4" class="desig" id="button" onclick="result(4)"/>
+                <input type="button" name="num5" value="5" class="desig" id="button" onclick="result(5)"/>
+                <input type="button" name="num6" value="6" class="desig" id="button" onclick="result(6)"/>
+                <input type="button" name="sun" value="-" class="color" id="button" onclick="result('-')"/>
             </div>
             <div class="butn">
-                <input type="button" name="num7" value="7" onclick="click(7)"/>
-                <input type="button" name="num8" value="8" onclick="click(8)"/>
-                <input type="button" name="num9" value="9" onclick="click(9)"/>
-                <input type="button" name="mul" value="*" onclick="click('*')"/>
+                <input type="button" name="num7" value="7" class="desig" id="button" onclick="result(7)"/>
+                <input type="button" name="num8" value="8" class="desig" id="button" onclick="result(8)"/>
+                <input type="button" name="num9" value="9" class="desig" id="button"onclick="result(9)"/>
+                <input type="button" name="mul" value="*" class="color" id="button" onclick="result('*')"/>
             </div>
             <div class="butn">
-                <input type="button" name="num0" value="0" onclick="click(0)"/>
-                <input type="button" name="div" value="/" onclick="click('/')"/>
-                <input type="button" name="equal" value="=" onclick="click('=')"/>
+                <input type="button" name="num0" value="0" class="desig" id="button" onclick="result(0)"/>
+                <input type="button" name="div" value="/" class="desig" id="button" onclick="result('/')"/>
+                <input type="button" name="equal" value="=" class="color" id="button" onclick="result('=')"/>
             </div>
         </form>
     </div>
